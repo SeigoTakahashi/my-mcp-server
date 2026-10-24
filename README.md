@@ -65,15 +65,3 @@ pnpm dlx @modelcontextprotocol/inspector node --env-file=$HOME/.config/my-mcp-se
 ```
 
 ブラウザ上でインスペクターが起動したら、各ツール（get_weather や Notion系）の動作をテストできます。
-
----
-
-### `.env.example` の中身（ファイル作成用）
-
-プロジェクトのルートに置いておく用のファイルです。
-
-```env
-# Notion API 設定
-NOTION_TOKEN=ntn_your_integration_token_here
-NOTION_TODO_PAGE_ID=your_target_notion_page_id_here
-```
